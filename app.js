@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             newDiv.appendChild(newContent);
             
             var currentDiv = document.getElementById("imageContent");
-            currentDiv.appendChild(newDiv, currentDiv.nextSibling);
+            currentDiv.appendChild(newDiv);
         };
     };
 
