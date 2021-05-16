@@ -1,13 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  outline: 0px solid red;
+  border: 0;
+  outline: 1px solid red;
   box-sizing: border-box;
 }
 
 body {
- background: ;
- color: ;
+ background: #242424;
+ color: aliceblue;
  -webkit-font-smoothing: antialiased;
 }
 
@@ -20,15 +21,24 @@ button {
  cursor: pointer;
 }
 
-.imageContent{
-    display:inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    align-content: stretch;
+.container{
+  width: auto;
+  height: 100vh;
+}
+
+#imageContent{
+  padding: 0.1em;
+  display:flex;
+  flex:1 0 auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: space-around;
 }
 
 .image{
-    display: inline-flex;
-    background-color: aquamarine;
+  flex-wrap: wrap;
+
+  margin: 1em 0;
 }
